@@ -1,4 +1,4 @@
-# LightWallet
+# pddiffer053
 
 A minimal ethereum javascript wallet.
 
@@ -8,7 +8,7 @@ LightWallet is a HD wallet that can store your private keys encrypted in the bro
 
 LightWallet is primarily intended to be a signing provider for the [Hooked Web3 provider](https://github.com/ConsenSys/hooked-web3-provider) through the `keystore` module. This allows you to have full control over your private keys while still connecting to a remote node to relay signed transactions. Moreover, the `txutils` functions can be used to construct transactions when offline, for use in e.g. air-gapped coldwallet implementations.
 
-The default BIP32 HD derivation path has been `m/0'/0'/0'/i`, but any HD path can be chosen.
+The default BIP32 HD derivation path has been `m/1'/0'/0'/i`, but any HD path can be chosen.
 
 ## Security
 
